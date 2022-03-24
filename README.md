@@ -3,7 +3,7 @@ A small CNN model based on VGGNet to recognize facial emotion realtime, the mode
 
 ### Overview
 Facial emotion plays an important role in communication to present the all the meanings, attitudes want to transmit. Besides, facial emotion recognition is also bring other interesting benefits so it becomes getting more and more attention nowadays. Therefore, we propose a small CNN model can run on devices with or without GPU.
-This project references the project [FER using VGGnet](https://github.com/Abhishekjl/Facial-Emotion-detection-webcam-)
+This project references the project [Facial Emotion Detection Using CNN](https://github.com/Abhishekjl/Facial-Emotion-detection-webcam-)
 Our model got **89.09%** accuracy on train data and **71.4%** accuracy on test data.
 
 ### Dataset
@@ -18,7 +18,7 @@ You can see the model's architecture in image below:
 :------------------------------------------------------:
 ![Model architecture here](images/model_5blocks.png)
 
-### Training
+### Loss and accuracy of model on test data
 To install the required packages, run `pip install -r requirements.txt`.
 
 Losses           |  Accs
@@ -34,10 +34,3 @@ You can go to `Demo/` and run:
 Or you also can run it in google colab or jupyter notebook to compare 2 ways detection: `Demo_Haar_Vs_SSD.ipynb`
 
 ![Gif demo](Demo/video_demo.gif)
-
-```
-*Notice*: You need to move correctly to direction of project to run two 
-steps above. You can find your current position with: `ls` or `dir`. 
-And use `cd` to move to the target path. If you go wrong, you can go 
-back with `cd..`
-```
