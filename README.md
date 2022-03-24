@@ -26,17 +26,18 @@ Losses           |  Accs
 ![Optimizers](images/loss_val.png)  |  ![Schedulers](images/acc_val.png)
 
 
-### Demo
+### Demo in realtime
 You can go to `Demo/` and run:
  - HaarCascade: `python Face_Detector_HaarCascade.py`
  - ResNet SSD: `python Face_Detector_SSD.py`
+
 Or you also can run it in google colab or jupyter notebook to compare 2 ways detection: `Demo_Haar_Vs_SSD.ipynb`
 
 ![Gif demo](Demo/video_demo.gif)
 
 ```
-**Notice**: You need to move correctly to direction of project to run two 
-steps above. You can find your current position with: 'ls' or 'dir'. 
-And use 'cd' to move to the target path. If you go wrong, you can go 
-back with 'cd..'
+*Notice*: You need to move correctly to direction of project to run two 
+steps above. You can find your current position with: `ls` or `dir`. 
+And use `cd` to move to the target path. If you go wrong, you can go 
+back with `cd..`
 ```
