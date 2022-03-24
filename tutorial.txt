@@ -1,0 +1,10 @@
+Step 1: Install important libraries: 'pip install -r requirements.txt' 
+
+Step 2: If you want to run demo, go to path './Demo':
+    - HaarCascade: python Face_Detector_HaarCascade.py
+    - ResNet SSD: python Face_Detector_SSD.py
+    
+Notice: You need to move correctly to direction of project to run two 
+steps above. You can find your current position with: 'ls' or 'dir'. 
+And use 'cd' to move to the target path. If you go wrong, you can go 
+back with 'cd..'

@@ -1,0 +1,8 @@
+imutils==0.5.4
+keras==2.8.0
+matplotlib==3.5.1
+numpy==1.22.3
+opencv_contrib_python==4.5.5.62
+Pillow==9.0.1
+scikit_learn==1.0.2
+tensorflow==2.8.0
