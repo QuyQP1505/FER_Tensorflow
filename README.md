@@ -3,7 +3,6 @@ A small CNN model based on VGGNet to recognize facial emotion realtime, the mode
 
 ### Overview
 Facial emotion plays an important role in communication to present the all the meanings, attitudes want to transmit. Besides, facial emotion recognition is also bring other interesting benefits so it becomes getting more and more attention nowadays. Therefore, we propose a small CNN model can run on devices with or without GPU.
-This project references the project [Facial Emotion Detection Using CNN](https://github.com/Abhishekjl/Facial-Emotion-detection-webcam-)
 Our model got **89.09%** accuracy on train data and **71.4%** accuracy on test data.
 
 ### Dataset
