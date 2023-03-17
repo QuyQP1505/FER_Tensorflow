@@ -20,11 +20,6 @@ You can see the model's architecture in image below:
 ### Loss and accuracy of model on test data
 To install the required packages, run `pip install -r requirements.txt`.
 
-Losses           |  Accs
-:-------------------------:|:-------------------------:
-![Optimizers](images/loss_val.png)  |  ![Schedulers](images/acc_val.png)
-
-
 ### Demo in realtime
 You can go to `Demo/` and run:
  - HaarCascade: `python Face_Detector_HaarCascade.py`
